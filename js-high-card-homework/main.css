@@ -1,0 +1,47 @@
+body {
+	background-image: url(gameCardTable.png);
+	background-size: cover;
+}
+
+h1 {
+	position: absolute;
+	font-size: 100px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: none;
+	text-shadow: 4px 4px black;
+	animation: right 6s linear infinite;
+}
+
+h3 {
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+.displayResults {
+	margin-top: 25%;
+}
+
+#player1Wins {
+	color: red;
+	/*border: 12px double red;*/
+}
+
+#player2Wins {
+	color: blue;
+	/*border: 12px double blue;*/
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(-80%);
+    }
+    100% {
+        transform: translateX(80%);
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>High Card Wins!</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h3>Player 1 Score: <span id="player1Score">0</span></h3>
+	<h3>Player 2 Score: <span id="player2Score">0</span></h3>
+
+	<button id="play" onclick="playGame()">Draw</button>
+	<button onclick="resetGame()">Reset</button>
+
+	<h1 id="player1Wins">PLAYER 1 WINS!!!</h1>
+	<h1 id="player2Wins">PLAYER 2 WINS!!!</h1>
+
+	<div class="displayResults">
+		<h2 id="showPlayer1Card"></h2>
+		<h2>VS</h2>
+		<h2 id="showPlayer2Card"></h2>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
