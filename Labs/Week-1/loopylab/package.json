@@ -1,0 +1,26 @@
+{
+  "name": "looplab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/nodemon/bin/nodemon.js ./node_modules/mocha/bin/mocha ./test/tests.js --bail --require babel-core/register"
+  },
+  "author": "",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "sinon": "^6.0.0",
+    "sinon-chai": "^3.2.0"
+  }
+}
