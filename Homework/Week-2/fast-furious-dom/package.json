@@ -1,0 +1,26 @@
+{
+  "name": "native-dom-manipulation-lab",
+  "version": "1.0.0",
+  "description": "Can you really *manipulate* The DOM though?",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:wdi-nyc-dresselhaus/native-dom-manipulation-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "jsdom": "^11.1.0",
+    "mocha": "^3.4.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
