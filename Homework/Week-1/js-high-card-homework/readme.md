@@ -69,12 +69,6 @@ It's a tie!
 Put the `player1Card` and `player2Card` back in the `deck` array.
 
 
-## Bonus
+## Deployment
 
-### Keep playing!
-
-Make the game run over and over and over again.
-
-### Keep score
-
-Keep track of how many games each player won. Log out the current score after each game.
+This game is available at: https://fahadhussain-highcardwins.netlify.com/
