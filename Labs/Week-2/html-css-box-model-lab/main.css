@@ -1,0 +1,55 @@
+body {
+    margin: 0 6%;
+}
+
+img {
+    display: block;
+}
+
+.article {
+    /* border: 2px solid black; */
+    max-width: 85%;
+}
+
+p, h1, h2, .links a, nav a, h3 {
+    font-family: "lato";
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+#title {
+    color: red;
+    font-size: 42px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+nav a {
+    color: #DD0000;
+}
+
+nav a:hover {
+    color: #aa0000;
+}
+
+.links a {
+    color: #dddddd;
+    margin: 0 5px;
+}
+
+.links a:hover {
+    color: black;
+}
+
+.article a {
+    float: right;
+    color: red;
+}
+
+#date {
+    color: gray;
+}
