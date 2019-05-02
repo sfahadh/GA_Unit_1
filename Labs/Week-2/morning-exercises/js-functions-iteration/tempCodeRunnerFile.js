@@ -1,0 +1,1 @@
+callback(arr[i], i);
