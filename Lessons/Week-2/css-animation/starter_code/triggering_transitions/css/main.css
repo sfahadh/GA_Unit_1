@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+body {
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  background-color: yellow;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  margin-top: 30px;
+}
+
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #E16F20;
+  /* STEP 1: Add transition property here.
+      Here's a refresher on the syntax: transition: propertyToTransition duration effect
+      Example:
+      transition: all .3s ease-in-out;
+   */
+   transition: all 3s ease-in-out;
+
+}
+
+
+.party {
+  background-color: #00D0CB;
+  /* STEP 2: Add the following styles: width: 300px; and height: 300px;
+      Bonus: Try transitioning other properties.
+  */
+  width: 300px;
+  height: 300px;
+
+  /* STEP 4: Use the transform property to translate, or move, the div 100px to the left. (hint: look up translateX) */
+  transition: all 12s ease;
+  transform: translateY(200px);
+  transform: rotate(10080deg);
+}

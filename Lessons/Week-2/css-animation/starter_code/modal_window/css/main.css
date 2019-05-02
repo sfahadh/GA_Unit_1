@@ -1,0 +1,56 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", Calibri, Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #e74c3c;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: .85em;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background-color: #c0392b;
+  margin: 100px 0;
+}
+
+article p {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  font-size: 20px;
+}
+
+.modal-background {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, .3);
+
+  /* YOU DO: Add code here to position the modal background.
+  We want it to be -fixed- and to stretch to each side. */
+
+
+}
+
+.modal-content {
+  padding: 40px 20px;
+  color: #444;
+  background-color: white;
+  width: 60%;
+}
+

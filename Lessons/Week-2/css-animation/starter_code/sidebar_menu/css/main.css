@@ -1,0 +1,114 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #555;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2em;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin: 2.5em 0 1em;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+}
+
+.line {
+  border-bottom: 4px solid #bbb;
+  width: 35px;
+  margin-bottom: 6px;
+}
+
+.line:last-child {
+  margin-bottom: 0;
+}
+
+nav {
+  width: 300px;
+  height: 100%;
+  background-color: #48a770;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+}
+
+nav h2 {
+  padding: 1.5rem 1rem 0;
+}
+
+li {
+  border-top: 1px solid rgba(0,0,0,0.2);
+  list-style: none;
+  transition: all 300ms ease-in-out;
+}
+
+li:hover {
+  background-color: #409564;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  padding: 1rem;
+  display: block;
+}
+
+nav li:first-child {
+  margin-top: 2em;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-transform: none;
+  font-size: 20px;
+}
+
+.content-inner {
+  max-width: 69em;
+  margin: 0 auto;
+}
+
+.sidebar {
+	/* Step #1: Using the transform property, move the sidebar off screen by default (hint: look up translateX)*/
+
+  /* Step #2: Add CSS transition here so that ALL properties we change will animate/transition */
+}
+
+/*	Step #3 (in main.js): Toggle the .active class on the .sidebar when the hamburger icon is clicked. 
+There are no styles below yet, so check your "Inspect" panel and see if the class is getting toggled.
+*/
+.active {
+	/*	Step #4: When the active class gets added to the sidebar, we want to move the sidebar back on screen using the transform property (translateX). */
+
+
+}
