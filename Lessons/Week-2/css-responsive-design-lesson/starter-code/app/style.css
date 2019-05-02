@@ -1,0 +1,27 @@
+/*This applies from 0px to 600px --> MOBILE */
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    background: darksalmon;
+    font-family: 'Roboto', sans-serif;
+    color: #141414;
+  }
+
+  p {
+      color: blue;
+  }
+
+  @media (min-width: 600px) {
+      p{
+          color: white;
+      }
+  }
