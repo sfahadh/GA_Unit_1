@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+
+a, .title, #headerIMG, p, li, h2 {
+    font-family: 'Allerta';
+}
+
+a {
+    text-decoration: none;
+    color:rgb(156, 162, 180);
+    font-weight: 700;
+    padding: 1.1em;
+}
+
+a:hover, .fab:hover, button:hover {
+    transform: scale(1.2);
+}
+
+#headerIMG {
+    width: 100vw;
+    background-image: url(starter-code/images/blog_header_bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 80vh;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+
+#blog {
+    margin: 0 5%;
+}
+
+img {
+    width: 100%;
+}
+
+.date {
+    color:rgb(74, 76, 78);
+    font-family: 'Days One';
+    letter-spacing: 2px;
+}
+
+.title {
+    color:rgb(88, 90, 92);
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.4em;
+    color:rgb(151, 159, 167);
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.issues {
+    margin: 50px auto;
+}
+
+#aboutIMG {
+    width: 40%;
+}
+
+li {
+    line-height: 1.5em;
+    color:rgb(156, 162, 180);
+}
+
+footer {
+    height: 280px;
+    background-color:rgb(195, 233, 248);
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.icons {    /* Alignment of icon tabs */
+    text-align: center;
+}
+
+.fab {
+    font-size: 30px;
+    margin: 3% 2.7% 4% 0;
+    color:rgb(88, 90, 92);
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Sans Serif';
+}
+
+form {
+   text-align: center;
+   margin: 0 5%;
+}
+
+input {
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+
+input, button {
+    height: 30px;
+    width: 280px;
+    text-align: center;
+    font-family: 'Allerta';
+    color:rgb(88, 90, 92);
+}
+
+#footButton {
+    border: 2px solid black;
+    width: 100%;
+    margin-left: 12px;
+    background-color:rgb(195, 233, 248);
+}
+
+.input {
+    display: flex;
+    margin-left: 1.9%;
+    height: 45px;
+}
+
+.input input {
+    flex: 1;
+    border: 2px solid black;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#message {
+    width: 95.2%;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+
+button {
+    width: 97%;
+    background-color: white;
+    margin-top: 4px;
+    border: 2px solid black;
+}
+
+.msg {
+    text-align: center;
+    color:rgb(74, 76, 78);
+    margin-bottom: 45px;
+}
+
+@media (max-width: 1000px) {
+
+    #blog {
+        display: grid;
+        grid-template-columns: 60% 32%;
+        grid-gap: 8%;
+    }
+
+    #aboutIMG {
+        width: 100%;
+    }
+
+    #headerIMG {
+        background-size: contain 100%;
+        height: 40vh;
+        line-height: 48vh;
+        font-size: 30px;
+        letter-spacing: 10px;
+        font-weight: 400;
+    }
+
+    a, li, .date, p {
+        font-size: 11px;
+    }
+    
+    .title {
+        font-size: 14px;
+    }
+    
+    footer {
+        height: 238px;
+    }
+
+    ul {
+        position: relative;
+        right: 24px;
+    }
+
+    .fab {
+        font-size: 20px;
+        margin: 6% 2.7% 4% 0;
+        color:rgb(88, 90, 92);
+    }
+
+    .copyright {
+        text-align: center;
+        font-family: 'Sans Serif';
+    }
+     
+     input {
+         margin-right: 12px;
+         margin-bottom: 30px;
+     }
+     
+     #footButton {
+         border: 2px solid black;
+         margin-bottom: 10px;
+     }
+     
+     .input {
+         display: flex;
+         height: 45px;
+     }
+     
+     .input input {
+         flex: 1;
+         border: 2px solid black;
+         text-align: left;
+         padding-left: 8px;
+     }
+     
+     #message {
+         width: 94.2%;
+         height: 200px;
+     }
+}
+
+@media (max-width: 560px) {
+
+    #blog {
+        display: block;
+    }
+}
+
