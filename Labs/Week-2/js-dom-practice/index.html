@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="elements">
+      <button id="okButton">Click Me</button>
+    <h1 id="first"> Hide Me </h1>
+    <h1 class="second">Get this element by it's class name</h1>
+    <h1 class="second">Also get this element by it's class</h1>
+    <h1 class="second">Also this element by class</h1>
+    <span>Get this elment by it's tag (element) name</span>
+  </div>
+
+  <div>
+    <span>
+      Get this element, but no other span!
+    </span>
+  </div>
+
+  <div>
+    <a href="#link"> Get this link element, but not the others </a>
+    <section>
+      <a href="#plz-no"> Don't select me! </a>
+      <a href="#false"> 🐍 Don't select on me 🐍 </a>
+      <a href="#no-selecty"> 🚫 Selections </a>
+    </section>
+  </div>
+
+  <div>
+    <h1 id="first">This is the misleading second element with the same id of first</h1>
+    <ul>
+      <li data-target="#plz-no"></li>
+      <li data-target="#false"></li>
+      <li data-target="#selecty"></li>
+    </ul>
+  </div>
+  
+  <script src="getelements.js"></script>
+  <script src="queryselector.js"></script>
+
+  
+</body>
+</html>
