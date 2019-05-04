@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+</head>
+<body>
+  <div id="headers">
+    <h1 class="player1">SCORPION (X)</h1>
+    <h1 class="player2">SUB-ZERO (O)</h1>
+    <h1 class="title">MORTAL TIC-TAC-TOE</h1>
+  </div>
+  <div class="tic-tac-toe">
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+    <div class="box box-4"></div>
+    <div class="box box-5"></div>
+    <div class="box box-6"></div>
+    <div class="box box-7"></div>
+    <div class="box box-8"></div>
+    <div class="box box-9"></div>
+  </div>
+  <h1 id="tie">TIE! BOTH WERE SPARED</h1>
+  <button id="reset">RESET</button>
+
+  <div id="modal1">
+    <div id="modalContent1">
+      <div id="modalClose1">CLOSE</div>
+      <video id="ScorpionWins" autoplay muted><source src="ScorpionWins.mp4" type="video/mp4"></video>
+    </div>
+  </div>
+
+  <div id="modal2">
+      <div id="modalContent2">
+        <div id="modalClose2">CLOSE</div>
+        <video id="SubZeroWins" autoplay muted><source src="Sub-ZeroWins.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

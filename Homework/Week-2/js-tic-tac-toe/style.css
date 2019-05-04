@@ -1,0 +1,141 @@
+body {
+    background-image: url(mortal-kombat.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-rows: 16vw 16vw 16vw;
+    grid-template-columns: 16vw 16vw 16vw;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.box {
+    border: 2px solid rgb(177, 14, 226, 0.5);
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box-1, .box-2, .box-3 {
+    border-top: 0;
+}
+
+.box-3, .box-6, .box-9 {
+    border-right: 0;
+}
+
+.box-7, .box-8, .box-9 {
+    border-bottom: 0;
+}
+
+.box-1, .box-4, .box-7 {
+    border-left: 0;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    border: 4px solid rgb(177, 14, 226);
+}
+
+span {
+    color: rgb(177, 14, 226);
+    font-size: 10vw;
+    text-shadow: 4px 3px black;
+    font-family: 'Rye', cursive;
+}
+
+#reset {
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(177, 14, 226);
+    width: 300px;
+    height: 30px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Rye', cursive;
+}
+
+#reset:hover {
+    transform: scale(1.1);
+}
+
+h1, .player1, .player2 {
+    position: absolute;
+    top: 0;
+}
+
+
+h1 {
+    color: rgb(177, 14, 226);
+    font-family: 'Rye', cursive;
+    font-size: 3vw;
+}
+
+.title {
+    left: 32vw;
+    z-index: 1;
+    text-shadow: 1px 1px white;
+}
+
+.player1 {
+    left: 0;
+    margin-left: 20px;
+    font-size: 3.2vw;
+    text-shadow: 4px 4px rgb(241, 59, 59);
+    color: white;
+}
+
+.player2 {
+    right: 0;
+    margin-right: 20px;
+    font-size: 3.2vw;
+    text-shadow: 4px 4px rgb(56, 92, 250);
+    color: white;
+}
+
+#modal1, #modal2 { 
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 38, 97, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+video {
+    width: 80vw;
+    height: 780px;
+    display: block;
+    margin: -20px auto;
+}
+
+#tie {
+    position: absolute;
+    font-size: 80px;
+    left: 0;
+    right: 0;
+    top: 160px;
+    text-align: center;
+    color: white;
+    display: none;
+    text-shadow: 4px 4px rgb(177, 14, 226);
+    animation: right 6s linear infinite;
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(-92%);
+    }
+    100% {
+        transform: translateX(92%);
+    }
+}
+
+
