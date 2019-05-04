@@ -1,0 +1,87 @@
+/* 
+Colors
+Dark green       #243010
+Medium green     #87A330
+Very light green #E6EBCD
+
+Orange Soda       #FC583B
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #E6EBCD;
+  color: #243010;
+  font-family: "Karma", serif;
+  padding-top: 1rem;
+
+}
+
+h1 {
+  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.page-wrapper {
+  max-width: 960px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+strong {
+  font-weight: 700;
+}
+
+
+code {
+  font-family: 'Inconsolata', monospace;
+}
+
+.character {
+  position: absolute; 
+  width: 100px; 
+  height: 100px;
+  background-image: url(blerf.svg);
+  
+}
+
+.rock {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url(rock.svg);
+}
+
+.plant {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url(plant.svg);
+}
+
+.win-message {
+  position: absolute;
+  width: 400px;
+  top: 150px;
+  background-color: rgba(255,255,255,0.75);
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.CodeMirror {
+  line-height: 1.25;
+  height: auto;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
